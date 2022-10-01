@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<caption>Tabla de prueba HTTML </caption>
+
+<thead>
+    <tr>
+        <th>Nombre</th>
+        <th>Edad</th>
+        <th>Pais</th>
+    </tr>
+</thead>
+<br/>
+<tbody>
+    <tr>
+    <td>Valeria Giva</td>
+    <td>41</td>
+    <td>Argentina</td>
+    </tr>
+    <br/>
+    <tr>
+    <td>Emilio Vera</td>
+    <td>28</td>
+    <td>EEUU</td>
+    </tr>
+    <br/>
+    <tr>
+    <td>Juan Pablo</td>
+    <td>28</td>
+    <td>Dinamarca</td>
+    </tr>
+
+</tbody>
+
+</table>
+<br/>
+<br/>
+<form action="Formulario" action="tratamiento.php">
+
+<p>Esto es un formulario de prueba php de la guia fullStack</p>
+<p> 
+  <label for="username" >Nombre de usuario </label> : <input type="email" name="username" id="username" size="30" maxlength="10">
+  <br/>
+  <label for="password"> Contraseña </label> : <input type="password" name="pass" id="pass" >
+</p>  
+<input type="reset"/>
+</form>
+<br/>
+<br/>
+
+<form action="FormularioGuia" method="post">
+<p>
+<label for="comentario"> Este es un formulario para que deje su comentario</label> <br/>
+<textarea name="comentario" id="comentario" cols="50" rows="10"></textarea>
+
+
+</p>
+
+<br/>
+<br/>
+
+<form action="ejemplo.php" method="post">
+<p>
+  Marcar la comida que te gusta: <br/>
+  <input type="checkbox" name"asado" id="asado"/> <label for="asado">Asado</label>
+  <br/>
+  <input type="checkbox" name="lomito" id="lomito"/> <label for="lomito">Lomito</label>
+  <br/>
+  <input type="checkbox" name"torta" id="torta"/> <label for="torta">Torata</label>
+</p>
+
+</form>
+
+</form>
+
+<br/>
+<br/>
+
+<form action="ejemplo.php" method="post">
+<p>
+  Marcar la comida que te gusta: <br/>
+  <input type="radio" value="elije1" name"elije" id="elije1"/> <label for="elije1">Asado</label>
+  <br/>
+  <input type="radio" value="elije2" name="elije" id="elije2" /> <label for="elije2">Lomito</label>
+  <br/>
+  <input type="radio" value="elije3" name"elije" id="elije3"/> <label for="elije3">Torata</label>
+</p>
+</form>
+<br/>
+
+<form action="ejemplo.php" method="post">
+<label for="pais">En que pais vives? </label> <br/>
+<select name="oauspais" id="pais" >
+  <optgroup label="America">
+  <option value="estados">Estados unidos</option>
+  <option value="argentina" selected>Argentina</option>
+  <option value="uruguay">uruguay</option>
+  <option value="Paraguay">Paraguay </option>
+  <option value="eChile">Chile </option>
+  <option value="Canada">Canada</option>
+  </optgroup>
+  <optgroup label="Eurpa">
+    <option value="España">España </option>
+    <option value="Francia">Francia</option>
+  </optgroup>
+
+</select>
+
+
+</form>
